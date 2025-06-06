@@ -59,9 +59,7 @@ const LoginForm = () => {
             >
               {isLoading ? 'Signing in...' : 'Sign In'}
             </Button>
-            <div className="text-center text-sm text-gray-500 mt-4">
-              Default credentials: admin123 / admin123
-            </div>
+           
           </form>
         </CardContent>
       </Card>
